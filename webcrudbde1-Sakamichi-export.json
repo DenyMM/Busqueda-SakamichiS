@@ -1,0 +1,68 @@
+Sakamichi={
+  "Hinatazaka46" : {
+    "Generation1" : {
+      "Higashimura Mei" : "HSMM",
+      "Iguchi Mao" : "IGCM",
+      "Kageyama Yuuka " : "KGYK",
+      "Kakizaki Memi" : "KZMM",
+      "Kato Shiho" : "KTSH",
+      "Sasaki Kumi" : "SSKM",
+      "Sasaki Mirei" : "SSMR",
+      "Sato Kyoko" : "STKK",
+      "Takamoto Ayaka" : "TKAK",
+      "Takase Nana" : "TKNN",
+      "Ushio Sarina" : "USSN"
+    },
+    "Generation2" : {
+      "Hamagishi Hiyori" : "HMHY",
+      "Kanemura Miku" : "KMMK",
+      "Kawata Hina" : "KWHN",
+      "Kosaka Nao" : "KSKN",
+      "Matsuda Konoka" : "MTKN",
+      "Miyata Manamo" : "MYMN",
+      "Nibu Akari" : "NBAK",
+      "Tomita Suzuka" : "TMSK",
+      "Watanabe Miho" : "WTMH"
+    },
+    "Generation3" : {
+      "Kamimura Hinano" : "KMMH"
+    }
+  },
+  "Keyakizaka46" : {
+    "Generation1" : {
+      "Habu Mizuho" : "HMH",
+      "Harada Aoi" : "HAO",
+      "Harada Mayu" : "HMY",
+      "Hirate Yurina" : "HYN ",
+      "Imaizumi Yui" : "IYU",
+      "Ishimori Nijika" : "INK",
+      "Kobayashi Yui" : "KYU",
+      "Koike Minami" : "KMM",
+      "Moriya Akane" : "MAK",
+      "Nagasawa Nanako" : "NNK",
+      "Oda Nana" : "ONN",
+      "Ozeki Rika" : "ORK",
+      "Sato Fuyuka" : "SFK",
+      "Sato Shiori" : "SSR",
+      "Shida Manaka" : "SMK",
+      "Sugai Yuuka" : "SYK",
+      "Suzuki Mizuho" : "SMH",
+      "Suzumoto Miyu" : "SMY",
+      "Uemura Rina" : "URN",
+      "Watanabe Rika" : "WRK",
+      "Watanabe Risa" : "WRS",
+      "Yonetani Nanami" : "YNN"
+    },
+    "Generation2" : {
+      "Fujiyoshi Karin" : "FJK",
+      "Inoue Rina" : "IRN",
+      "Matsuda Rina" : "MDR",
+      "Matsudaira Riko" : "MTR",
+      "Morita Hikaru" : "MHK",
+      "Seki Yumiko" : "SKY",
+      "Takemoto Yui" : "TKY",
+      "Tamura Hono" : "TMH",
+      "Yamasaki Ten" : "TMT"
+    }
+  }
+}
