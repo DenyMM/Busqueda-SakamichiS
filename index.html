@@ -1,46 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
+    <title>Sakamichi</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    </head>
   <body>
-    <h1>Cifrado Cesar</h1>
-    <div>
-  <h2 id="showwindow"><form>Ingresa una palabra:<br>
-     <input id="userWo" type="text" >
-     <input type="button" value="ok" onclick="showword()"><br>
-    <!-- <input type="button" value="ok" onclick="goToCiph()"><br> -->
-    <input type="button" value="Codificar" onclick="final()">
-  </form></h2>
+    <dic class= "container">
+      <div class="row">
+        <div class="col-sm-7">
+          <table class="table table-hover">
+          <thead>
+            <tr>
+              <th colspan="2">Nombres</th>
+              <th colspan="2">NN</th>
+              <th></th>
+              <th></th>
+            </tr>
+            <tr>
+              <th>Grupo</th>
+              <th>Generacion</th>
+              <th>Nombres</th>
+              <th></th>
+              <th></th>
+              <th></th>
+            </tr>
+          </thead>
+          </table>
 
-  <h2 id="aaaa"><br></h2>
-<!--
-  <h2><form>Ingresa numero de posiciones: <br>
-   <input id="posic" type="number" name="Numero de posiciones">
- </form></h2>
--->
-<h2 id="codi"><form>Mensaje Codificado<br>
-</form>
-</h2>
-<h2 id="ccc"></h2>
-<!--<h2 id=insertNumber><form>Ingresar numero:<br>
-  <input id="userWnum" type="text"  name="Ingresa numero">
-  <input type="button" value="ok" onclick="shownumber()"><br>
-  <input type="button" value="Decodificar" onclick="decodific()"></h2>
+        </div>
+        <div class="col-sm-1">
+        </div>
 
-<h2 id="bbbb"></h2>
+        <div class="col-sm-4">
+        </div>
 
-<h2 id="decodi"><form>Mensaje Decodificado<br>
-</form>
-</h2>
 
-<h3 id="ccc"></h3>
--->
-  </div>
-    <div id="root"></div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
+        <!--Links jquery y database p-->
+          <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+             crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+             crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+             crossorigin="anonymous"></script>
   </body>
 </html>
