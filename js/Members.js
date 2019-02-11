@@ -1,4 +1,4 @@
-const url = "https://raw.githubusercontent.com/DenyMM/CRUD-SakamichiS/master/webcrudbde1-Sakamichi-export.json"; 
+const url = "https://raw.githubusercontent.com/DenyMM/CRUD-SakamichiS/master/webcrudbde1-Sakamichi-export.jsont ";
 fetch(url).then(result => result.json())
 .then(response => response.text())
 .then(contents => console.log(contents))
