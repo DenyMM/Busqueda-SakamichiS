@@ -1,4 +1,4 @@
-Sakamichi={
+{"Sakamichi":{
   "Hinatazaka46" : {
     "Generation1" : {
       "Higashimura Mei" : "HSMM",
@@ -65,4 +65,5 @@ Sakamichi={
       "Yamasaki Ten" : "TMT"
     }
   }
+}
 }
