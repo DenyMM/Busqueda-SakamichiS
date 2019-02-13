@@ -1,13 +1,13 @@
 
 
-const url = "https://api.myjson.com/bins/mfeem"; // site that doesn’t send Access-Control-*
+const url = "https://raw.githubusercontent.com/DenyMM/Busqueda-SakamichiS/master/webcrudbde1-Sakamichi-export.json"; // site that doesn’t send Access-Control-*
 fetch(url).then((res) => {
   return res.json();
-  var Zaka = JSON.Parse(url);
+  var Zaka = JSON.stringify(url);
 }).then((Zaka) => {
-document.getElementById('nombre').innerHTML = Object.entries(Zaka);
+document.getElementById('nombre').innerHTML = JSON.stringify(Zaka);
 console.log(Object.values(Zaka)[0]["Keyakizaka46"]["Generation1"]);
-document.getElementById('apellido').innerHTML = Object.values(Zaka)[0]["Keyakizaka46"]["Generation1"];
+document.getElementById('apellido').innerHTML = Object.values(Zaka)[0]["Keyakizaka46"]["Generation1"]["KMM"];
 }).catch((error) => {
 console.log(error);
 });
