@@ -5,12 +5,15 @@ fetch(url).then((res) => {
   return res.json();
   var Zaka = JSON.stringify(url);
 }).then((Zaka) => {
-document.getElementById('nombre').innerHTML = JSON.stringify(Zaka);
+//document.getElementById('memb').innerHTML = JSON.stringify(Zaka);
 console.log(Object.values(Zaka)[0]["Keyakizaka46"]["Generation1"]);
-document.getElementById('apellido').innerHTML = Object.values(Zaka)[0]["Keyakizaka46"]["Generation1"]["KMM"];
+document.getElementById('memba').innerHTML = Object.values(Zaka)[0]["Keyakizaka46"]["Generation1"]["KMM"];
+document.getElementById('memb').innerHTML = Object.values(Zaka)[0]["Keyakizaka46"]["Generation2"]["FJK"];
 }).catch((error) => {
 console.log(error);
 });
+
+
 /*fetch(url)
 .then(response => response.json())
 .then(Sakamichi => document.getElementById('nombre').innerHTML = (Object.keys(Sakamichi)))
