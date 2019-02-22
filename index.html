@@ -8,30 +8,69 @@
     </head>
   <body>
     <!-- MENU -->
+    <div class="row">
+  <div class="col-md-12">Zaka</div>
+</div>
    <nav>
-     <div class="nav-side-menu col-lg-6">
-         <ul id="Keyas"> Keyakizaka46
-         </ul>
-         </div>
-         <div class="nav-side-menu col-lg-6">
-         <ul id="Hinas"> Hinatazaka46
-         </ul>
+     <div class="nav-side-menu col-lg-1">
        </div>
+     <div class="nav-side-menu col-lg-4">
+       <button type="button" id="Keyas" class="btn btn-primary btn-lg">Keyakizaka46</button>
+         </div>
+         <div class="nav-side-menu col-lg-2">
+           </div>
+         <div class="nav-side-menu col-lg-4">
+           <button type="button" id="Hinas" class="btn btn-primary btn-lg">Hinatazaka46</button>
+       </div>
+       <div class="nav-side-menu col-lg-1">
+         </div>
    </nav>
      <!-- Tabla Keyas -->
+
+     <div class="row">
+  <div class="col-md-12">
      <table class="table">
        <thead class="thead-dark">
-         <tr>
-           <th scope="col">Generacion 1</th>
-           <th scope="col">Generacion 2</th>
-         </tr>
-       </thead>
-       <tbody id="Keya">
-       </tbody>
-       <th scope="col" id="memba"></th>
-       <th scope="col" id="memb"></th>
+         <th>
+         <button type="button" id="G1" class="btn btn-primary btn-lg" onclick="KG1()">Generacion 1</button>
+         </th>
+         <th>
+         <button type="button" id="G2" class="btn btn-primary btn-lg" onclick="HG1()">Generacion 2</button>
+         </th>
+         <th>
+         <button type="button" id="G3" class="btn btn-primary btn-lg">Generacion 3</button>
+         </th>
+            </thead>
+            </table>
+            </div>
 
-     </table>
+    <div class="container" id="Generations">
+    <div class="row">
+       <div class="col-md-4">
+         <table class="table" id="Gen1">
+           <thead class="thead-dark">
+       <tr scope="col" id="M1a"></tr>
+       <tr scope="col" id="M1b"></tr>
+           </thead>
+        </table>
+      </div>
+      <div class="col-md-4">
+        <table class="table" id="Gen2">
+          <thead class="thead-dark">
+      <tr scope="col" id="M2a"></tr>
+      <tr scope="col" id="M2b"></tr>
+          </thead>
+       </table>
+     </div>
+     <div class="col-md-4">
+       <table class="table" id="Gen3">
+         <thead class="thead-dark">
+     <tr scope="col" id="M3a"></tr>
+     <tr scope="col" id="M3b"></tr>
+         </thead>
+      </table>
+    </div>
+   </div>
    </div>
         <div>
           <table class="table table-hover" id="mmb">
@@ -41,6 +80,8 @@
 
           <script type= "text/javascript" src="js/Members.js"> </script>
           <script type= "text/javascript" src="js/data.js"> </script>
+          <script type= "text/javascript" src="js/Keyakizaka46.js"> </script>
+          <script type= "text/javascript" src="js/Hinatazaka46.js"> </script>
 
 
         <!--Links jquery y database p-->
