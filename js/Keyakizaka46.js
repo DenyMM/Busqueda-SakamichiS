@@ -3,8 +3,7 @@ fetch(url).then((res) => {
   return res.json();
   var Zaka = JSON.stringify(url);
 }).then((Zaka) => {
-//document.getElementById('memb').innerHTML = JSON.stringify(Zaka);
-console.log(Object.values(Zaka)[0]["Keyakizaka46"]["Generation1"]);
+console.log(Object.values(Zaka)[0]["Keyakizaka46"]);
 document.getElementById('M1a').innerHTML = Object.values(Zaka)[0]["Keyakizaka46"]["Generation1"]["HMH"];
 document.getElementById('M1b').innerHTML = Object.values(Zaka)[0]["Keyakizaka46"]["Generation1"]["HAO"];
 document.getElementById('M1c').innerHTML = Object.values(Zaka)[0]["Keyakizaka46"]["Generation1"]["HMY"];
@@ -37,8 +36,6 @@ fetch(url).then((res) => {
   return res.json();
   var Zaka = JSON.stringify(url);
 }).then((Zaka) => {
-//document.getElementById('memb').innerHTML = JSON.stringify(Zaka);
-console.log(Object.values(Zaka)[0]["Keyakizaka46"]["Generation1"]);
 document.getElementById('M2a').innerHTML = Object.values(Zaka)[0]["Keyakizaka46"]["Generation2"]["FJK"];
 document.getElementById('M2b').innerHTML = Object.values(Zaka)[0]["Keyakizaka46"]["Generation2"]["IRN"];
 document.getElementById('M2c').innerHTML = Object.values(Zaka)[0]["Keyakizaka46"]["Generation2"]["MDR"];
@@ -48,6 +45,16 @@ document.getElementById('M2f').innerHTML = Object.values(Zaka)[0]["Keyakizaka46"
 document.getElementById('M2g').innerHTML = Object.values(Zaka)[0]["Keyakizaka46"]["Generation2"]["TKY"];
 document.getElementById('M2h').innerHTML = Object.values(Zaka)[0]["Keyakizaka46"]["Generation2"]["TMH"];
 document.getElementById('M2i').innerHTML = Object.values(Zaka)[0]["Keyakizaka46"]["Generation2"]["TMT"];
+}).catch((error) => {
+console.log(error);
+});
+};
+const KG3 = () => {
+fetch(url).then((res) => {
+  return res.json();
+  var Zaka = JSON.stringify(url);
+}).then((Zaka) => {
+document.getElementById('M3a').innerHTML = "";
 }).catch((error) => {
 console.log(error);
 });
